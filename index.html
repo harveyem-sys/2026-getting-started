@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026-getting-started</title>
+  </head>
+
+
+  
+  <h1>
+    GuessingGame
+  </h1>
+  <h2>
+    Enter a Number and see if its correct
+  </h2>
+
+  <body>
+    <div id="app"></div>
+
+    <div>
+       <label for="userAnswer"> Enter a number</label>
+       <input type="number" name="user-answer" id="userAnswer">
+       <button id="btnAnswer"> Answer </button>
+       <button id="btnReset"> Start Over! </button>
+    </div>
+
+    <!-- <div>
+      <label for="Guesses"> Enter a Number of Guesses</label>
+      <select name="Guesses" Id="numbeOfGuesses">
+        <option value="10-3"> 1 to 10 with 3 guesses</option>
+        <option value="20-6">1 to 20 with 6 guesses</option>
+        <option value="400-12">1 to 400 with 12 guesses</option>
+        <option value="8000-24">1 to 8000 with  24 guesses</option>
+      </select>
+    </div> -->
+
+    <div id="scoreboard">Wins: 0 | Losses: 0</div>
+
+    <div id="errorMessage" style="color: red"></div>
+
+    <div id="userMessage" style="color: blue"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
